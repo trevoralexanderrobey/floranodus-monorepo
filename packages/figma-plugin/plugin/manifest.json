@@ -1,0 +1,20 @@
+{
+  "name": "🚀 Unified Figma Bridge - Multi-Tunnel Edition",
+  "id": "unified-figma-bridge-tunnel",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma", "figjam"],
+  "capabilities": [],
+  "enableProposedApi": false,
+  "networkAccess": {
+    "allowedDomains": [
+      "https://*.trycloudflare.com",
+      "https://*.loca.lt",
+      "https://*.serveo.net",
+      "https://*.bore.pub"
+    ],
+    "reasoning": "Connect to unified bridge server via multiple tunnel providers for bypassing Figma sandbox restrictions"
+  },
+  "permissions": ["currentuser"],
+  "ui": {}
+}

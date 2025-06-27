@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "message": "Design variables prepared for creation",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "variableCollection": "Test Collection - Colors",
+  "variables": {
+    "primary": "#3B82F6",
+    "secondary": "#8B5CF6",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "error": "#EF4444",
+    "gray-50": "#F9FAFB",
+    "gray-900": "#111827"
+  },
+  "variableCount": 7,
+  "instructions": "Use this data with the Figma plugin bridge to create actual variables"
+}

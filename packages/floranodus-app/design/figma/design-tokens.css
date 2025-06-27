@@ -1,0 +1,25 @@
+/* Extracted from Figma designs */
+:root {
+  /* Canvas Background */
+  --figma-canvas-bg: #0a0a0a;
+  
+  /* Node Colors */
+  --figma-node-bg: #1e1e1e;
+  --figma-node-border: #2a2a2a;
+  --figma-node-selected: #4a9eff;
+  
+  /* Text Colors */
+  --figma-text-primary: #ffffff;
+  --figma-text-secondary: #a0a0a0;
+  
+  /* Spacing from Figma */
+  --figma-spacing-xs: 4px;
+  --figma-spacing-sm: 8px;
+  --figma-spacing-md: 16px;
+  --figma-spacing-lg: 24px;
+  
+  /* Border Radius */
+  --figma-radius-sm: 4px;
+  --figma-radius-md: 8px;
+  --figma-radius-lg: 12px;
+} 

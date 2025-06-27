@@ -1,0 +1,21 @@
+{
+  "figma.autocompleteBlocks": true,
+  "figma.showGrid": true,
+  "figma.showRulers": true,
+  "figma.sidebar.position": "right",
+  "figma.theme": "dark",
+  "figma.scale": 0.75,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#0a0a0a",
+    "sideBar.background": "#141414"
+  },
+  "terminal.integrated.env.osx": {
+    "FIGMA_AI_BRIDGE_AUTO": "true",
+    "FIGMA_MCP_MODE": "unified"
+  },
+  "task.autoDetect": "on",
+  "task.quickOpen.history": 10,
+  "extensions.autoUpdate": false,
+  "figma.fileUrl": "https://www.figma.com/design/LbrzdzgGO3hn6mZv8OAQzy/Untitled?node-id=0-1&p=f&t=vDDtJM9PwDvdArXQ-0",
+  "workbench.startupEditor": "none"
+} 

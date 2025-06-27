@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "message": "Design preview generated",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "designDescription": "A data dashboard with charts and graphs. Include a top navigation, sidebar menu, and main content area with bar chart, line graph, and data table.",
+  "dimensions": {
+    "width": 1200,
+    "height": 800
+  },
+  "style": "professional",
+  "format": "png",
+  "designNodes": [],
+  "timestamp": "2025-06-25T22:49:11.217Z",
+  "instructions": "Use this data with the Figma plugin bridge to create actual design and generate preview"
+}

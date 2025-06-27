@@ -1,0 +1,18 @@
+{
+  "Figma Color Reference": {
+    "prefix": "figcol",
+    "body": [
+      "/* Figma: ${1:ColorName} */",
+      "className=\"${2:bg}-[${3:#hexvalue}]\""
+    ],
+    "description": "Add Figma color reference"
+  },
+  "Figma Spacing Reference": {
+    "prefix": "figspace",
+    "body": [
+      "/* Figma: ${1:spacing-value} */",
+      "className=\"${2:p}-${3:4}\""
+    ],
+    "description": "Add Figma spacing reference"
+  }
+} 

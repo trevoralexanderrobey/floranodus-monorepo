@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Start Figma AI Bridge",
+      "type": "shell",
+      "command": "cd ../figma-write-mcp && npm run start",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Floranodus Figma Design",
+      "type": "shell",
+      "command": "echo 'Opening Figma designs in VS Code sidebar'",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Sync Figma Design Tokens",
+      "type": "shell",
+      "command": "echo 'Syncing design tokens from Figma'",
+      "problemMatcher": []
+    },
+    {
+      "label": "🎨 Generate AI Components",
+      "type": "shell",
+      "command": "echo 'Use MCP tools to generate Figma components via AI'",
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "📱 Create Bulk UI Elements",
+      "type": "shell", 
+      "command": "echo 'Bulk create UI elements from data/code'",
+      "group": "build"
+    }
+  ]
+} 

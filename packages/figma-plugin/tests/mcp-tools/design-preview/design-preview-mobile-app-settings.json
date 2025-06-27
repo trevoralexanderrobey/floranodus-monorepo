@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "message": "Design preview generated",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "designDescription": "A mobile settings screen with user profile at top, followed by grouped settings options like account, notifications, privacy, help. Include toggle switches and forward arrows.",
+  "dimensions": {
+    "width": 375,
+    "height": 812
+  },
+  "style": "minimal",
+  "format": "png",
+  "designNodes": [],
+  "timestamp": "2025-06-25T22:49:11.214Z",
+  "instructions": "Use this data with the Figma plugin bridge to create actual design and generate preview"
+}

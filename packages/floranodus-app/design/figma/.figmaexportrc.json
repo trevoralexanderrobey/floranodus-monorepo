@@ -1,0 +1,14 @@
+{
+  "figmaFileId": "LbrzdzgGO3hn6mZv8OAQzy",
+  "figmaToken": "",
+  "outputDir": "./exports",
+  "includes": [
+    "components/*",
+    "screens/*"
+  ],
+  "format": "svg",
+  "svg": {
+    "optimize": true,
+    "prettify": true
+  }
+} 

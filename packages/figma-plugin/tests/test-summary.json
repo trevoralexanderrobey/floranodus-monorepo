@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-06-25T22:28:19.412Z",
+  "tests": [
+    {
+      "name": "Create Nodes from Code",
+      "script": "test-create-nodes.js",
+      "status": "passed",
+      "duration": 6194,
+      "error": null
+    },
+    {
+      "name": "Set Design Variables",
+      "script": "test-design-variables.js",
+      "status": "passed",
+      "duration": 5126,
+      "error": null
+    },
+    {
+      "name": "Generate Design Preview",
+      "script": "test-design-preview.js",
+      "status": "passed",
+      "duration": 6129,
+      "error": null
+    },
+    {
+      "name": "Establish Code Connections",
+      "script": "test-code-connections.js",
+      "status": "passed",
+      "duration": 136,
+      "error": null
+    }
+  ],
+  "overall": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "duration": 23594
+  }
+}

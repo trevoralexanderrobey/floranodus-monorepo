@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🚀 Debug Figma AI Bridge",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/../figma-write-mcp/dist/clean-main.js",
+      "args": [],
+      "env": {
+        "NODE_ENV": "development",
+        "FIGMA_AI_BRIDGE_AUTO": "true",
+        "FIGMA_MCP_MODE": "unified"
+      },
+      "console": "integratedTerminal",
+      "restart": true,
+      "protocol": "inspector",
+      "sourceMaps": true,
+      "outFiles": ["${workspaceFolder}/../figma-write-mcp/dist/**/*.js"]
+    },
+    {
+      "name": "🎨 Debug AI Workflow Scripts",
+      "type": "node", 
+      "request": "launch",
+      "program": "${workspaceFolder}/design/figma/ai-workflow-scripts.js",
+      "args": ["generate-interface"],
+      "console": "integratedTerminal",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+} 

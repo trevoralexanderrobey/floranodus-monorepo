@@ -1,0 +1,25 @@
+{
+  "name": "floranodus-figma-ai-workflows",
+  "version": "1.0.0",
+  "description": "AI-powered Figma workflow automation for Floranodus",
+  "main": "ai-workflow-scripts.js",
+  "scripts": {
+    "start": "node ai-workflow-scripts.js",
+    "status": "node ai-workflow-scripts.js status",
+    "generate": "node ai-workflow-scripts.js generate-interface",
+    "test-ai": "node ai-workflow-scripts.js test-ai",
+    "install-deps": "npm install axios",
+    "setup": "npm run install-deps && npm run status"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "keywords": [
+    "figma",
+    "ai",
+    "automation",
+    "floranodus"
+  ],
+  "author": "Floranodus Team",
+  "license": "MIT"
+}

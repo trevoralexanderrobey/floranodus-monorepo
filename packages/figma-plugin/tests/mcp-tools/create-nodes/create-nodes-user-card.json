@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "message": "Code parsed and ready for node creation",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "position": {
+    "x": 400,
+    "y": 0
+  },
+  "framework": "react",
+  "originalCode": "<div className=\"user-card\">\n        <img src=\"/avatar.jpg\" alt=\"User Avatar\" className=\"avatar\" />\n        <div className=\"user-info\">\n          <h3 className=\"username\">John Doe</h3>\n          <p className=\"email\">john@example.com</p>\n          <span className=\"status active\">Online</span>\n        </div>\n      </div>",
+  "parsedNodes": [
+    {
+      "type": "FRAME",
+      "name": "React Component",
+      "children": [
+        {
+          "type": "TEXT",
+          "name": "React Text",
+          "characters": "Parsed from React code"
+        }
+      ]
+    }
+  ],
+  "instructions": "Use this data with the Figma plugin bridge to create actual nodes"
+}

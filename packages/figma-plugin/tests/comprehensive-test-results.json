@@ -1,0 +1,344 @@
+{
+  "timestamp": "2025-06-25T22:49:11.091Z",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "tests": [
+    {
+      "name": "Test 1: Create Nodes from Code",
+      "status": "passed",
+      "duration": 112,
+      "result": {
+        "testCases": 3,
+        "results": [
+          {
+            "testCase": "Simple Button",
+            "result": {
+              "success": true,
+              "message": "Code parsed and ready for node creation",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "framework": "react",
+              "originalCode": "<button className=\"btn btn-primary\" onClick={() => alert(\"Hello!\")}>Click Me</button>",
+              "parsedNodes": [
+                {
+                  "type": "FRAME",
+                  "name": "React Component",
+                  "children": [
+                    {
+                      "type": "TEXT",
+                      "name": "React Text",
+                      "characters": "Parsed from React code"
+                    }
+                  ]
+                }
+              ],
+              "instructions": "Use this data with the Figma plugin bridge to create actual nodes"
+            }
+          },
+          {
+            "testCase": "User Card",
+            "result": {
+              "success": true,
+              "message": "Code parsed and ready for node creation",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "position": {
+                "x": 400,
+                "y": 0
+              },
+              "framework": "react",
+              "originalCode": "<div className=\"user-card\">\n        <img src=\"/avatar.jpg\" alt=\"User Avatar\" className=\"avatar\" />\n        <div className=\"user-info\">\n          <h3 className=\"username\">John Doe</h3>\n          <p className=\"email\">john@example.com</p>\n          <span className=\"status active\">Online</span>\n        </div>\n      </div>",
+              "parsedNodes": [
+                {
+                  "type": "FRAME",
+                  "name": "React Component",
+                  "children": [
+                    {
+                      "type": "TEXT",
+                      "name": "React Text",
+                      "characters": "Parsed from React code"
+                    }
+                  ]
+                }
+              ],
+              "instructions": "Use this data with the Figma plugin bridge to create actual nodes"
+            }
+          },
+          {
+            "testCase": "Navigation Bar",
+            "result": {
+              "success": true,
+              "message": "Code parsed and ready for node creation",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "position": {
+                "x": 800,
+                "y": 0
+              },
+              "framework": "react",
+              "originalCode": "<nav className=\"navbar\">\n        <div className=\"nav-brand\">\n          <img src=\"/logo.svg\" alt=\"Logo\" className=\"logo\" />\n          <span className=\"brand-text\">MyApp</span>\n        </div>\n        <ul className=\"nav-links\">\n          <li><a href=\"/home\">Home</a></li>\n          <li><a href=\"/about\">About</a></li>\n          <li><a href=\"/contact\">Contact</a></li>\n        </ul>\n      </nav>",
+              "parsedNodes": [
+                {
+                  "type": "FRAME",
+                  "name": "React Component",
+                  "children": [
+                    {
+                      "type": "TEXT",
+                      "name": "React Text",
+                      "characters": "Parsed from React code"
+                    }
+                  ]
+                }
+              ],
+              "instructions": "Use this data with the Figma plugin bridge to create actual nodes"
+            }
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "Test 2: Set Design Variables",
+      "status": "passed",
+      "duration": 7,
+      "result": {
+        "groups": 3,
+        "results": [
+          {
+            "group": "Colors",
+            "result": {
+              "success": true,
+              "message": "Design variables prepared for creation",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "variableCollection": "Test Collection - Colors",
+              "variables": {
+                "primary": "#3B82F6",
+                "secondary": "#8B5CF6",
+                "success": "#10B981",
+                "warning": "#F59E0B",
+                "error": "#EF4444",
+                "gray-50": "#F9FAFB",
+                "gray-900": "#111827"
+              },
+              "variableCount": 7,
+              "instructions": "Use this data with the Figma plugin bridge to create actual variables"
+            }
+          },
+          {
+            "group": "Typography",
+            "result": {
+              "success": true,
+              "message": "Design variables prepared for creation",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "variableCollection": "Test Collection - Typography",
+              "variables": {
+                "font-family-sans": "Inter, system-ui, sans-serif",
+                "font-size-sm": "14px",
+                "font-size-base": "16px",
+                "font-size-lg": "18px",
+                "font-size-xl": "20px",
+                "font-weight-normal": "400",
+                "font-weight-bold": "700"
+              },
+              "variableCount": 7,
+              "instructions": "Use this data with the Figma plugin bridge to create actual variables"
+            }
+          },
+          {
+            "group": "Spacing",
+            "result": {
+              "success": true,
+              "message": "Design variables prepared for creation",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "variableCollection": "Test Collection - Spacing",
+              "variables": {
+                "space-1": "4px",
+                "space-2": "8px",
+                "space-4": "16px",
+                "space-6": "24px",
+                "space-8": "32px",
+                "space-12": "48px"
+              },
+              "variableCount": 6,
+              "instructions": "Use this data with the Figma plugin bridge to create actual variables"
+            }
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "Test 3: Generate Design Previews",
+      "status": "passed",
+      "duration": 7,
+      "result": {
+        "designs": 3,
+        "results": [
+          {
+            "design": "Modern Login Page",
+            "result": {
+              "success": true,
+              "message": "Design preview generated",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "designDescription": "A clean, modern login page with a centered card containing email/password fields, a sign-in button, and forgot password link. Use a gradient background from blue to purple.",
+              "dimensions": {
+                "width": 400,
+                "height": 600
+              },
+              "style": "modern",
+              "format": "png",
+              "designNodes": [
+                {
+                  "type": "RECTANGLE",
+                  "name": "Button",
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 0.2,
+                        "g": 0.5,
+                        "b": 1
+                      }
+                    }
+                  ],
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "FRAME",
+                  "name": "Card Container",
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "color": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      }
+                    }
+                  ],
+                  "effects": [
+                    {
+                      "type": "DROP_SHADOW",
+                      "offset": {
+                        "x": 0,
+                        "y": 2
+                      },
+                      "radius": 8
+                    }
+                  ]
+                }
+              ],
+              "timestamp": "2025-06-25T22:49:11.212Z",
+              "instructions": "Use this data with the Figma plugin bridge to create actual design and generate preview"
+            }
+          },
+          {
+            "design": "Mobile App Settings",
+            "result": {
+              "success": true,
+              "message": "Design preview generated",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "designDescription": "A mobile settings screen with user profile at top, followed by grouped settings options like account, notifications, privacy, help. Include toggle switches and forward arrows.",
+              "dimensions": {
+                "width": 375,
+                "height": 812
+              },
+              "style": "minimal",
+              "format": "png",
+              "designNodes": [],
+              "timestamp": "2025-06-25T22:49:11.214Z",
+              "instructions": "Use this data with the Figma plugin bridge to create actual design and generate preview"
+            }
+          },
+          {
+            "design": "Data Dashboard",
+            "result": {
+              "success": true,
+              "message": "Design preview generated",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "designDescription": "A data dashboard with charts and graphs. Include a top navigation, sidebar menu, and main content area with bar chart, line graph, and data table.",
+              "dimensions": {
+                "width": 1200,
+                "height": 800
+              },
+              "style": "professional",
+              "format": "png",
+              "designNodes": [],
+              "timestamp": "2025-06-25T22:49:11.217Z",
+              "instructions": "Use this data with the Figma plugin bridge to create actual design and generate preview"
+            }
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "Test 4: Establish Code Connections",
+      "status": "passed",
+      "duration": 6,
+      "result": {
+        "connections": 3,
+        "results": [
+          {
+            "connection": "PrimaryButton",
+            "result": {
+              "success": true,
+              "message": "Code connection established",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "nodeId": "mock-button-node-1",
+              "codeInfo": {
+                "componentName": "PrimaryButton",
+                "filePath": "src/components/Button/PrimaryButton.tsx",
+                "repository": "https://github.com/myorg/design-system",
+                "framework": "React"
+              },
+              "timestamp": "2025-06-25T22:49:11.219Z",
+              "instructions": "Use this data with the Figma plugin bridge to establish actual code connections"
+            }
+          },
+          {
+            "connection": "UserCard",
+            "result": {
+              "success": true,
+              "message": "Code connection established",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "nodeId": "mock-card-node-2",
+              "codeInfo": {
+                "componentName": "UserCard",
+                "filePath": "src/components/UserCard/UserCard.tsx",
+                "repository": "https://github.com/myorg/design-system",
+                "framework": "React"
+              },
+              "timestamp": "2025-06-25T22:49:11.221Z",
+              "instructions": "Use this data with the Figma plugin bridge to establish actual code connections"
+            }
+          },
+          {
+            "connection": "NavigationBar",
+            "result": {
+              "success": true,
+              "message": "Code connection established",
+              "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+              "nodeId": "mock-nav-node-3",
+              "codeInfo": {
+                "componentName": "NavigationBar",
+                "filePath": "src/components/Navigation/NavigationBar.tsx",
+                "repository": "https://github.com/myorg/design-system",
+                "framework": "React"
+              },
+              "timestamp": "2025-06-25T22:49:11.223Z",
+              "instructions": "Use this data with the Figma plugin bridge to establish actual code connections"
+            }
+          }
+        ]
+      },
+      "error": null
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  },
+  "duration": 133
+}

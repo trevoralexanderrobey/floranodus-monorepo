@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "message": "Code connection established",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "nodeId": "mock-button-node-1",
+  "codeInfo": {
+    "componentName": "PrimaryButton",
+    "filePath": "src/components/Button/PrimaryButton.tsx",
+    "repository": "https://github.com/myorg/design-system",
+    "framework": "React"
+  },
+  "timestamp": "2025-06-25T22:49:11.219Z",
+  "instructions": "Use this data with the Figma plugin bridge to establish actual code connections"
+}

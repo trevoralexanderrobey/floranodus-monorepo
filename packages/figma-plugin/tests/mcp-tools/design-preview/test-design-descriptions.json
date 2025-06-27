@@ -1,0 +1,46 @@
+{
+  "testDesigns": [
+    {
+      "name": "Modern Login Page",
+      "description": "A clean, modern login page with a centered card containing email/password fields, a sign-in button, and forgot password link. Use a gradient background from blue to purple.",
+      "style": "modern",
+      "width": 400,
+      "height": 600
+    },
+    {
+      "name": "E-commerce Product Grid",
+      "description": "A product grid layout showing 6 product cards in a 2x3 grid. Each card has a product image, title, price, and add to cart button. Include a search bar at the top.",
+      "style": "clean",
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "name": "Corporate Landing Page",
+      "description": "A professional landing page with a navigation bar, hero section with large text and CTA button, features section with 3 columns, and footer. Use corporate blue and white color scheme.",
+      "style": "corporate",
+      "width": 1200,
+      "height": 2000
+    },
+    {
+      "name": "Mobile App Settings",
+      "description": "A mobile settings screen with user profile at top, followed by grouped settings options like account, notifications, privacy, help. Include toggle switches and forward arrows.",
+      "style": "minimal",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "name": "Data Dashboard",
+      "description": "A data dashboard with multiple charts and graphs. Include a top navigation, sidebar menu, and main content area with 4 different chart types: bar chart, line graph, pie chart, and data table.",
+      "style": "professional",
+      "width": 1400,
+      "height": 900
+    },
+    {
+      "name": "Social Media Post",
+      "description": "A social media post card with user avatar, name, timestamp, post text, image, and interaction buttons (like, comment, share). Use rounded corners and subtle shadows.",
+      "style": "modern",
+      "width": 500,
+      "height": 400
+    }
+  ]
+} 

@@ -1,0 +1,22 @@
+{
+  "mainCanvas": {
+    "name": "Floranodus Main Canvas",
+    "url": "https://www.figma.com/design/LbrzdzgGO3hn6mZv8OAQzy/Untitled?node-id=0-1&p=f&t=vDDtJM9PwDvdArXQ-0",
+    "description": "Main application interface with infinite canvas"
+  },
+  "components": {
+    "name": "Floranodus Components",
+    "url": "",
+    "description": "Reusable UI components library"
+  },
+  "nodeDesigns": {
+    "name": "Node Components",
+    "url": "",
+    "description": "AI node designs for canvas"
+  },
+  "designSystem": {
+    "name": "Floranodus Design System",
+    "url": "",
+    "description": "Colors, typography, spacing"
+  }
+} 

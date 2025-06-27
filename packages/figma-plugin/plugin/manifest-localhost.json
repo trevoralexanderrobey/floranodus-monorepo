@@ -1,0 +1,22 @@
+{
+  "name": "🚀 Unified Figma Bridge - Localhost Edition",
+  "id": "unified-figma-bridge-localhost",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "capabilities": [],
+  "enableProposedApi": false,
+  "networkAccess": {
+    "allowedDomains": [
+      "*"
+    ],
+    "reasoning": "Connect to unified bridge server on localhost for development and testing with full network access"
+  },
+  "permissions": [
+    "currentuser"
+  ],
+  "ui": {}
+} 

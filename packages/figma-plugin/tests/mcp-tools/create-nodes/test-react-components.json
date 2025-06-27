@@ -1,0 +1,40 @@
+{
+  "testComponents": [
+    {
+      "name": "SimpleButton",
+      "framework": "react",
+      "code": "<button className=\"btn btn-primary\" onClick={() => alert('Hello!')}>Click Me</button>",
+      "description": "A simple button component"
+    },
+    {
+      "name": "UserCard",
+      "framework": "react", 
+      "code": "<div className=\"user-card\">\n  <img src=\"/avatar.jpg\" alt=\"User Avatar\" className=\"avatar\" />\n  <div className=\"user-info\">\n    <h3 className=\"username\">John Doe</h3>\n    <p className=\"email\">john@example.com</p>\n    <span className=\"status active\">Online</span>\n  </div>\n</div>",
+      "description": "A user profile card with avatar, name, email and status"
+    },
+    {
+      "name": "NavigationBar",
+      "framework": "react",
+      "code": "<nav className=\"navbar\">\n  <div className=\"nav-brand\">\n    <img src=\"/logo.svg\" alt=\"Logo\" className=\"logo\" />\n    <span className=\"brand-text\">MyApp</span>\n  </div>\n  <ul className=\"nav-links\">\n    <li><a href=\"/home\">Home</a></li>\n    <li><a href=\"/about\">About</a></li>\n    <li><a href=\"/contact\">Contact</a></li>\n  </ul>\n  <button className=\"menu-toggle\">☰</button>\n</nav>",
+      "description": "A responsive navigation bar with logo, links and mobile menu"
+    },
+    {
+      "name": "ProductTile",
+      "framework": "react",
+      "code": "<div className=\"product-tile\">\n  <div className=\"product-image\">\n    <img src=\"/product.jpg\" alt=\"Product\" />\n    <span className=\"sale-badge\">SALE</span>\n  </div>\n  <div className=\"product-info\">\n    <h4 className=\"product-title\">Awesome Product</h4>\n    <p className=\"product-description\">This is an amazing product that you'll love.</p>\n    <div className=\"price-section\">\n      <span className=\"price current\">$29.99</span>\n      <span className=\"price original\">$39.99</span>\n    </div>\n    <button className=\"add-to-cart\">Add to Cart</button>\n  </div>\n</div>",
+      "description": "An e-commerce product tile with image, title, description and pricing"
+    },
+    {
+      "name": "FormInput",
+      "framework": "react",
+      "code": "<div className=\"form-group\">\n  <label htmlFor=\"email\" className=\"form-label\">Email Address</label>\n  <input \n    type=\"email\" \n    id=\"email\" \n    className=\"form-input\" \n    placeholder=\"Enter your email\"\n    required \n  />\n  <span className=\"error-message\">Please enter a valid email</span>\n</div>",
+      "description": "A form input group with label, input field and error message"
+    },
+    {
+      "name": "Dashboard",
+      "framework": "react",
+      "code": "<div className=\"dashboard\">\n  <header className=\"dashboard-header\">\n    <h1>Dashboard</h1>\n    <div className=\"user-menu\">\n      <img src=\"/user.jpg\" alt=\"User\" className=\"user-avatar\" />\n      <span>Welcome, User!</span>\n    </div>\n  </header>\n  <main className=\"dashboard-content\">\n    <div className=\"stats-grid\">\n      <div className=\"stat-card\">\n        <h3>Total Sales</h3>\n        <p className=\"stat-number\">$12,450</p>\n      </div>\n      <div className=\"stat-card\">\n        <h3>New Orders</h3>\n        <p className=\"stat-number\">48</p>\n      </div>\n      <div className=\"stat-card\">\n        <h3>Active Users</h3>\n        <p className=\"stat-number\">1,240</p>\n      </div>\n    </div>\n  </main>\n</div>",
+      "description": "A complete dashboard layout with header, user info and statistics cards"
+    }
+  ]
+} 

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "message": "Design variables prepared for creation",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "variableCollection": "Test Collection - Spacing",
+  "variables": {
+    "space-1": "4px",
+    "space-2": "8px",
+    "space-4": "16px",
+    "space-6": "24px",
+    "space-8": "32px",
+    "space-12": "48px"
+  },
+  "variableCount": 6,
+  "instructions": "Use this data with the Figma plugin bridge to create actual variables"
+}

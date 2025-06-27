@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "message": "Code parsed and ready for node creation",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "position": {
+    "x": 800,
+    "y": 0
+  },
+  "framework": "react",
+  "originalCode": "<nav className=\"navbar\">\n        <div className=\"nav-brand\">\n          <img src=\"/logo.svg\" alt=\"Logo\" className=\"logo\" />\n          <span className=\"brand-text\">MyApp</span>\n        </div>\n        <ul className=\"nav-links\">\n          <li><a href=\"/home\">Home</a></li>\n          <li><a href=\"/about\">About</a></li>\n          <li><a href=\"/contact\">Contact</a></li>\n        </ul>\n      </nav>",
+  "parsedNodes": [
+    {
+      "type": "FRAME",
+      "name": "React Component",
+      "children": [
+        {
+          "type": "TEXT",
+          "name": "React Text",
+          "characters": "Parsed from React code"
+        }
+      ]
+    }
+  ],
+  "instructions": "Use this data with the Figma plugin bridge to create actual nodes"
+}

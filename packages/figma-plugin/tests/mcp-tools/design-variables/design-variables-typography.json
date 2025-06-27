@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "message": "Design variables prepared for creation",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "variableCollection": "Test Collection - Typography",
+  "variables": {
+    "font-family-sans": "Inter, system-ui, sans-serif",
+    "font-size-sm": "14px",
+    "font-size-base": "16px",
+    "font-size-lg": "18px",
+    "font-size-xl": "20px",
+    "font-weight-normal": "400",
+    "font-weight-bold": "700"
+  },
+  "variableCount": 7,
+  "instructions": "Use this data with the Figma plugin bridge to create actual variables"
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "message": "Code connection established",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "nodeId": "mock-nav-node-3",
+  "codeInfo": {
+    "componentName": "NavigationBar",
+    "filePath": "src/components/Navigation/NavigationBar.tsx",
+    "repository": "https://github.com/myorg/design-system",
+    "framework": "React"
+  },
+  "timestamp": "2025-06-25T22:49:11.223Z",
+  "instructions": "Use this data with the Figma plugin bridge to establish actual code connections"
+}

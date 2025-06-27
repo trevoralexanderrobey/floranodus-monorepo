@@ -1,0 +1,18 @@
+{
+  "name": "floranodus-frontend",
+  "version": "1.0.0",
+  "description": "Floranodus frontend application",
+  "main": "index.js",
+  "scripts": {
+    "figma:open": "code --open-url vscode://figma.figma-vscode-extension/open",
+    "figma:sync": "echo 'Sync Figma designs with local files'",
+    "dev": "echo 'Add your development server command here'",
+    "build": "echo 'Add your build command here'",
+    "start": "echo 'Add your start command here'"
+  },
+  "keywords": ["figma", "design", "ui", "frontend"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+} 

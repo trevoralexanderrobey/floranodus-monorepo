@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "message": "Code parsed and ready for node creation",
+  "fileKey": "pN5u5fKsz3B3jMcaF1tMKR",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "framework": "react",
+  "originalCode": "<button className=\"btn btn-primary\" onClick={() => alert(\"Hello!\")}>Click Me</button>",
+  "parsedNodes": [
+    {
+      "type": "FRAME",
+      "name": "React Component",
+      "children": [
+        {
+          "type": "TEXT",
+          "name": "React Text",
+          "characters": "Parsed from React code"
+        }
+      ]
+    }
+  ],
+  "instructions": "Use this data with the Figma plugin bridge to create actual nodes"
+}
