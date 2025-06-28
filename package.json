@@ -1,0 +1,52 @@
+{
+  "name": "floranodus-monorepo",
+  "version": "1.0.0",
+  "description": "AI-Native Creative Canvas Platform with Figma Integration - Comprehensive monorepo combining infinite canvas application with AI-powered Figma design generation",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "pnpm@8.0.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter='!@floranodus/shared' dev",
+    "dev:app": "pnpm --filter @floranodus/app dev",
+    "dev:plugin": "pnpm --filter @floranodus/figma-plugin dev",
+    "build": "pnpm --filter @floranodus/shared build && pnpm --parallel --filter='!@floranodus/shared' build",
+    "start": "pnpm --parallel --filter='!@floranodus/shared' start",
+    "test": "pnpm --recursive test",
+    "clean": "pnpm --recursive clean && rm -rf node_modules",
+    "generate": "pnpm --filter @floranodus/figma-plugin dev",
+    "figma:sync": "echo 'Syncing design tokens from Figma...' && pnpm --filter @floranodus/figma-plugin run health",
+    "design": "pnpm --filter @floranodus/figma-plugin run demo:ui-kit",
+    "status": "pnpm --filter @floranodus/figma-plugin run status",
+    "health": "pnpm --filter @floranodus/figma-plugin run health",
+    "install:all": "pnpm install",
+    "update:all": "pnpm update --recursive"
+  },
+  "keywords": [
+    "figma",
+    "ai",
+    "canvas",
+    "design",
+    "react",
+    "typescript",
+    "monorepo",
+    "mcp",
+    "creative-platform",
+    "design-tokens",
+    "automation"
+  ],
+  "author": "Floranodus Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevoralexanderrobey/floranodus-monorepo.git"
+  }
+}

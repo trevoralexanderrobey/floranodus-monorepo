@@ -1,5 +1,5 @@
 {
-  "name": "figma-unified-bridge",
+  "name": "@floranodus/figma-plugin",
   "version": "2.0.0",
   "description": "Unified Figma Bridge - TypeScript Production Server with Smart Tunnel Auto-Detection",
   "main": "dist/clean-main.js",

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "console-ninja": {
+      "command": "node",
+      "args": ["~/.console-ninja/mcp/"]
+    },
+    "floranodus-figma-current": {
+      "command": "node",
+      "args": ["./packages/figma-plugin/dist/unified-figma-bridge.js"],
+      "cwd": "/Volumes/ExtraCurricular/VScode/Github/Cursor/Repos/floranodus-monorepo"
+    }
+  }
+} 
