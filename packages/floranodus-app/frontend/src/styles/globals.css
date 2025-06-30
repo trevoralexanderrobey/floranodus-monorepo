@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Floranodus Canvas Node Styles */
+.floranodus-node {
+  @apply bg-floranodus-bg-secondary border-2 rounded-lg p-3 min-w-[160px] text-floranodus-text-primary shadow-lg;
+  @apply transition-all duration-200 hover:shadow-xl;
+}
+
+.floranodus-node.selected {
+  @apply border-floranodus-accent-primary shadow-floranodus-accent-primary/20;
+}
+
+/* React Flow Custom Styles */
+.react-flow__node {
+  @apply text-floranodus-text-primary;
+}
+
+.react-flow__edge {
+  @apply stroke-floranodus-border;
+}
+
+.react-flow__edge.selected {
+  @apply stroke-floranodus-accent-primary;
+}
+
+.react-flow__controls {
+  @apply bg-floranodus-bg-secondary border-floranodus-border;
+}
+
+.react-flow__controls button {
+  @apply bg-floranodus-bg-tertiary border-floranodus-border text-floranodus-text-primary;
+  @apply hover:bg-floranodus-accent-primary hover:text-white;
+}
+
+.react-flow__minimap {
+  @apply bg-floranodus-bg-secondary border border-floranodus-border;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-floranodus-bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-floranodus-border rounded hover:bg-floranodus-accent-primary;
+} 

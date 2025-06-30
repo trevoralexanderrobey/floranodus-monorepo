@@ -1,0 +1,8 @@
+{
+  "showOnlyProjectMessages": true,
+  "instrumentConsole": true,
+  "captureLogs": true,
+  "captureErrors": true,
+  "outputMode": "Beside File",
+  "showConsoleLogsInStatusBar": true
+} 
