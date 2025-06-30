@@ -6,7 +6,7 @@
     },
     "floranodus-figma-current": {
       "command": "node",
-      "args": ["./packages/figma-plugin/dist/unified-figma-bridge.js"],
+      "args": ["./packages/figma-plugin/dist/mcp-entry.js"],
       "cwd": "/Volumes/ExtraCurricular/VScode/Github/Cursor/Repos/floranodus-monorepo",
       "env": {
         "FIGMA_API_TOKEN": "${FIGMA_API_TOKEN}"

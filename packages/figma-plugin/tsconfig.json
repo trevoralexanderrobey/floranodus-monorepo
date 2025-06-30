@@ -27,9 +27,7 @@
     "noEmitOnError": false
   },
   "include": [
-    "src/bridge-server.ts",
-    "src/clean-main.ts",
-    "src/types/unified-bridge.ts"
+    "src/mcp-entry.ts"
   ],
   "exclude": [
     "node_modules",
@@ -38,8 +36,6 @@
     "plugin/**/*",
     "server/**/*",
     "tests/**/*",
-    "src/figma-client.ts",
-    "src/index.ts",
-    "src/tools/**/*"
+    "src/index.ts"
   ]
 }
